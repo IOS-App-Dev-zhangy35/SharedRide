@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5623D4C32831EA66006C7B19 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5623D4C22831EA66006C7B19 /* GoogleService-Info.plist */; };
+		5623D4C62831EB62006C7B19 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5623D4C52831EB62006C7B19 /* FirebaseAnalytics */; };
+		5623D4C82831EB62006C7B19 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5623D4C72831EB62006C7B19 /* FirebaseAuth */; };
+		5623D4CA2831EB62006C7B19 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5623D4C92831EB62006C7B19 /* FirebaseFirestore */; };
+		5623D4CD2831F0DA006C7B19 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 5623D4CC2831F0DA006C7B19 /* SideMenu */; };
+		5623D4CF2831FE59006C7B19 /* TripsSideNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5623D4CE2831FE59006C7B19 /* TripsSideNavViewController.swift */; };
+		5632484D28329E290057412A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5632484C28329E290057412A /* AuthManager.swift */; };
+		5632484F2832A5D30057412A /* UserDocumentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5632484E2832A5D30057412A /* UserDocumentManager.swift */; };
+		563248512832A9020057412A /* TripsCollectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563248502832A9020057412A /* TripsCollectionManager.swift */; };
+		563248532832AAAE0057412A /* ModelObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563248522832AAAE0057412A /* ModelObjects.swift */; };
 		563CEAC2282ED62E00E250AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563CEAC1282ED62E00E250AF /* AppDelegate.swift */; };
 		563CEAC4282ED62E00E250AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563CEAC3282ED62E00E250AF /* SceneDelegate.swift */; };
-		563CEAC6282ED62E00E250AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563CEAC5282ED62E00E250AF /* ViewController.swift */; };
+		563CEAC6282ED62E00E250AF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563CEAC5282ED62E00E250AF /* WelcomeViewController.swift */; };
 		563CEAC9282ED62E00E250AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563CEAC7282ED62E00E250AF /* Main.storyboard */; };
 		563CEACB282ED63100E250AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563CEACA282ED63100E250AF /* Assets.xcassets */; };
 		563CEACE282ED63100E250AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563CEACC282ED63100E250AF /* LaunchScreen.storyboard */; };
+		563CEAD7282F5F1700E250AF /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563CEAD6282F5F1700E250AF /* LogInViewController.swift */; };
+		563CEADA282F5F4900E250AF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563CEAD9282F5F4900E250AF /* RegisterViewController.swift */; };
+		563CEADC282F5F5F00E250AF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563CEADB282F5F5F00E250AF /* Constants.swift */; };
+		563CEADE282F63BC00E250AF /* TripsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563CEADD282F63BC00E250AF /* TripsTableViewController.swift */; };
+		565E745E2834210C00BAB0D0 /* UserCollectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565E745D2834210C00BAB0D0 /* UserCollectionManager.swift */; };
+		567742B128353C88003EBBC9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567742B028353C88003EBBC9 /* ProfileViewController.swift */; };
+		567742B3283550AA003EBBC9 /* AddTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567742B2283550AA003EBBC9 /* AddTripViewController.swift */; };
+		567742B5283550C3003EBBC9 /* MyTripTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567742B4283550C3003EBBC9 /* MyTripTableViewController.swift */; };
+		567742B728359C60003EBBC9 /* TripDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567742B628359C60003EBBC9 /* TripDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5623D4C22831EA66006C7B19 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5623D4CE2831FE59006C7B19 /* TripsSideNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsSideNavViewController.swift; sourceTree = "<group>"; };
+		5632484C28329E290057412A /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		5632484E2832A5D30057412A /* UserDocumentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDocumentManager.swift; sourceTree = "<group>"; };
+		563248502832A9020057412A /* TripsCollectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsCollectionManager.swift; sourceTree = "<group>"; };
+		563248522832AAAE0057412A /* ModelObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelObjects.swift; sourceTree = "<group>"; };
 		563CEABE282ED62E00E250AF /* SharedRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharedRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		563CEAC1282ED62E00E250AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		563CEAC3282ED62E00E250AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		563CEAC5282ED62E00E250AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		563CEAC5282ED62E00E250AF /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		563CEAC8282ED62E00E250AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		563CEACA282ED63100E250AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		563CEACD282ED63100E250AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		563CEACF282ED63100E250AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		563CEAD6282F5F1700E250AF /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		563CEAD9282F5F4900E250AF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		563CEADB282F5F5F00E250AF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		563CEADD282F63BC00E250AF /* TripsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsTableViewController.swift; sourceTree = "<group>"; };
+		565E745D2834210C00BAB0D0 /* UserCollectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionManager.swift; sourceTree = "<group>"; };
+		567742B028353C88003EBBC9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		567742B2283550AA003EBBC9 /* AddTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripViewController.swift; sourceTree = "<group>"; };
+		567742B4283550C3003EBBC9 /* MyTripTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTripTableViewController.swift; sourceTree = "<group>"; };
+		567742B628359C60003EBBC9 /* TripDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +65,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5623D4C62831EB62006C7B19 /* FirebaseAnalytics in Frameworks */,
+				5623D4C82831EB62006C7B19 /* FirebaseAuth in Frameworks */,
+				5623D4CD2831F0DA006C7B19 /* SideMenu in Frameworks */,
+				5623D4CA2831EB62006C7B19 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5632484B28329DFC0057412A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5632484C28329E290057412A /* AuthManager.swift */,
+				5632484E2832A5D30057412A /* UserDocumentManager.swift */,
+				563248502832A9020057412A /* TripsCollectionManager.swift */,
+				563248522832AAAE0057412A /* ModelObjects.swift */,
+				565E745D2834210C00BAB0D0 /* UserCollectionManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		563CEAB5282ED62E00E250AF = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +106,34 @@
 		563CEAC0282ED62E00E250AF /* SharedRide */ = {
 			isa = PBXGroup;
 			children = (
+				5632484B28329DFC0057412A /* Models */,
+				563CEAD5282F5E4300E250AF /* ViewControllers */,
 				563CEAC1282ED62E00E250AF /* AppDelegate.swift */,
 				563CEAC3282ED62E00E250AF /* SceneDelegate.swift */,
-				563CEAC5282ED62E00E250AF /* ViewController.swift */,
+				563CEADB282F5F5F00E250AF /* Constants.swift */,
 				563CEAC7282ED62E00E250AF /* Main.storyboard */,
+				5623D4C22831EA66006C7B19 /* GoogleService-Info.plist */,
 				563CEACA282ED63100E250AF /* Assets.xcassets */,
 				563CEACC282ED63100E250AF /* LaunchScreen.storyboard */,
 				563CEACF282ED63100E250AF /* Info.plist */,
 			);
 			path = SharedRide;
+			sourceTree = "<group>";
+		};
+		563CEAD5282F5E4300E250AF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				563CEAC5282ED62E00E250AF /* WelcomeViewController.swift */,
+				563CEAD6282F5F1700E250AF /* LogInViewController.swift */,
+				563CEAD9282F5F4900E250AF /* RegisterViewController.swift */,
+				563CEADD282F63BC00E250AF /* TripsTableViewController.swift */,
+				5623D4CE2831FE59006C7B19 /* TripsSideNavViewController.swift */,
+				567742B028353C88003EBBC9 /* ProfileViewController.swift */,
+				567742B2283550AA003EBBC9 /* AddTripViewController.swift */,
+				567742B4283550C3003EBBC9 /* MyTripTableViewController.swift */,
+				567742B628359C60003EBBC9 /* TripDetailViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +152,12 @@
 			dependencies = (
 			);
 			name = SharedRide;
+			packageProductDependencies = (
+				5623D4C52831EB62006C7B19 /* FirebaseAnalytics */,
+				5623D4C72831EB62006C7B19 /* FirebaseAuth */,
+				5623D4C92831EB62006C7B19 /* FirebaseFirestore */,
+				5623D4CC2831F0DA006C7B19 /* SideMenu */,
+			);
 			productName = SharedRide;
 			productReference = 563CEABE282ED62E00E250AF /* SharedRide.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +186,10 @@
 				Base,
 			);
 			mainGroup = 563CEAB5282ED62E00E250AF;
+			packageReferences = (
+				5623D4C42831EB62006C7B19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				5623D4CB2831F0DA006C7B19 /* XCRemoteSwiftPackageReference "SideMenu" */,
+			);
 			productRefGroup = 563CEABF282ED62E00E250AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +207,7 @@
 				563CEACE282ED63100E250AF /* LaunchScreen.storyboard in Resources */,
 				563CEACB282ED63100E250AF /* Assets.xcassets in Resources */,
 				563CEAC9282ED62E00E250AF /* Main.storyboard in Resources */,
+				5623D4C32831EA66006C7B19 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +218,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				563CEAC6282ED62E00E250AF /* ViewController.swift in Sources */,
+				565E745E2834210C00BAB0D0 /* UserCollectionManager.swift in Sources */,
+				563248532832AAAE0057412A /* ModelObjects.swift in Sources */,
+				563248512832A9020057412A /* TripsCollectionManager.swift in Sources */,
+				563CEAD7282F5F1700E250AF /* LogInViewController.swift in Sources */,
+				567742B128353C88003EBBC9 /* ProfileViewController.swift in Sources */,
+				567742B3283550AA003EBBC9 /* AddTripViewController.swift in Sources */,
+				567742B5283550C3003EBBC9 /* MyTripTableViewController.swift in Sources */,
+				5632484D28329E290057412A /* AuthManager.swift in Sources */,
+				563CEADA282F5F4900E250AF /* RegisterViewController.swift in Sources */,
+				563CEAC6282ED62E00E250AF /* WelcomeViewController.swift in Sources */,
+				567742B728359C60003EBBC9 /* TripDetailViewController.swift in Sources */,
 				563CEAC2282ED62E00E250AF /* AppDelegate.swift in Sources */,
+				5623D4CF2831FE59006C7B19 /* TripsSideNavViewController.swift in Sources */,
 				563CEAC4282ED62E00E250AF /* SceneDelegate.swift in Sources */,
+				5632484F2832A5D30057412A /* UserDocumentManager.swift in Sources */,
+				563CEADC282F5F5F00E250AF /* Constants.swift in Sources */,
+				563CEADE282F63BC00E250AF /* TripsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +454,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5623D4C42831EB62006C7B19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		5623D4CB2831F0DA006C7B19 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5623D4C52831EB62006C7B19 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5623D4C42831EB62006C7B19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		5623D4C72831EB62006C7B19 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5623D4C42831EB62006C7B19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5623D4C92831EB62006C7B19 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5623D4C42831EB62006C7B19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		5623D4CC2831F0DA006C7B19 /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5623D4CB2831F0DA006C7B19 /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 563CEAB6282ED62E00E250AF /* Project object */;
 }
