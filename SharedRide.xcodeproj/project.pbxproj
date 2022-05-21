@@ -32,6 +32,9 @@
 		567742B3283550AA003EBBC9 /* AddTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567742B2283550AA003EBBC9 /* AddTripViewController.swift */; };
 		567742B5283550C3003EBBC9 /* MyTripTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567742B4283550C3003EBBC9 /* MyTripTableViewController.swift */; };
 		567742B728359C60003EBBC9 /* TripDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567742B628359C60003EBBC9 /* TripDetailViewController.swift */; };
+		567742B92835D8C0003EBBC9 /* TripDocumentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567742B82835D8C0003EBBC9 /* TripDocumentManager.swift */; };
+		567742BB2835E955003EBBC9 /* RequestCollectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567742BA2835E955003EBBC9 /* RequestCollectionManager.swift */; };
+		567742BD2835F659003EBBC9 /* RequestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567742BC2835F659003EBBC9 /* RequestTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +61,9 @@
 		567742B2283550AA003EBBC9 /* AddTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripViewController.swift; sourceTree = "<group>"; };
 		567742B4283550C3003EBBC9 /* MyTripTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTripTableViewController.swift; sourceTree = "<group>"; };
 		567742B628359C60003EBBC9 /* TripDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailViewController.swift; sourceTree = "<group>"; };
+		567742B82835D8C0003EBBC9 /* TripDocumentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDocumentManager.swift; sourceTree = "<group>"; };
+		567742BA2835E955003EBBC9 /* RequestCollectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCollectionManager.swift; sourceTree = "<group>"; };
+		567742BC2835F659003EBBC9 /* RequestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,8 @@
 				563248502832A9020057412A /* TripsCollectionManager.swift */,
 				563248522832AAAE0057412A /* ModelObjects.swift */,
 				565E745D2834210C00BAB0D0 /* UserCollectionManager.swift */,
+				567742B82835D8C0003EBBC9 /* TripDocumentManager.swift */,
+				567742BA2835E955003EBBC9 /* RequestCollectionManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -132,6 +140,7 @@
 				567742B2283550AA003EBBC9 /* AddTripViewController.swift */,
 				567742B4283550C3003EBBC9 /* MyTripTableViewController.swift */,
 				567742B628359C60003EBBC9 /* TripDetailViewController.swift */,
+				567742BC2835F659003EBBC9 /* RequestTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -220,7 +229,9 @@
 			files = (
 				565E745E2834210C00BAB0D0 /* UserCollectionManager.swift in Sources */,
 				563248532832AAAE0057412A /* ModelObjects.swift in Sources */,
+				567742BD2835F659003EBBC9 /* RequestTableViewController.swift in Sources */,
 				563248512832A9020057412A /* TripsCollectionManager.swift in Sources */,
+				567742B92835D8C0003EBBC9 /* TripDocumentManager.swift in Sources */,
 				563CEAD7282F5F1700E250AF /* LogInViewController.swift in Sources */,
 				567742B128353C88003EBBC9 /* ProfileViewController.swift in Sources */,
 				567742B3283550AA003EBBC9 /* AddTripViewController.swift in Sources */,
@@ -228,6 +239,7 @@
 				5632484D28329E290057412A /* AuthManager.swift in Sources */,
 				563CEADA282F5F4900E250AF /* RegisterViewController.swift in Sources */,
 				563CEAC6282ED62E00E250AF /* WelcomeViewController.swift in Sources */,
+				567742BB2835E955003EBBC9 /* RequestCollectionManager.swift in Sources */,
 				567742B728359C60003EBBC9 /* TripDetailViewController.swift in Sources */,
 				563CEAC2282ED62E00E250AF /* AppDelegate.swift in Sources */,
 				5623D4CF2831FE59006C7B19 /* TripsSideNavViewController.swift in Sources */,

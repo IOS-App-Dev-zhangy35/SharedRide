@@ -33,3 +33,10 @@ let ShowMyTripsSegue = "ShowMyTripsSegue"
 let ShowTripDetailSegue = "ShowTripDetailSegue"
 
 let kMyTripTableViewCell = "MyTripTableViewCell"
+let kRequestTableViewCell = "RequestTableViewCell"
+
+let kRequestCollectionPath = "Requests"
+let kRequestEmail = "email"
+let kRequestStatus = "status"
+
+let ShowRequestListSegue = "ShowRequestListSegue"

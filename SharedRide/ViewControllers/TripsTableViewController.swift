@@ -92,7 +92,14 @@ class TripsTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
-        
+        if segue.identifier == ShowTripDetailSegue{
+            if let indexPath = tableView.indexPathForSelectedRow {
+                //mqdvc.moviequote = movieQuotes[indexPath.row]
+                let mqdvc = segue.destination as! TripDetailViewController
+                let mq = TripsCollectionManager.shared.trips[indexPath.row]
+                mqdvc.tripDocumentId = mq.documentId!
+            }
+        }
     }
 
 }

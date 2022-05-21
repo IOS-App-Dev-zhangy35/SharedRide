@@ -65,3 +65,21 @@ class UserDocument{
         self.carPlate = data?[kUserCarPlate] as? String ?? ""
     }
 }
+
+class Request{
+    var email : String
+    var status : String
+    var documentId: String?
+    
+    init(email: String, status: String){
+        self.email = email
+        self.status = status
+    }
+    
+    init(documentSnapshot: DocumentSnapshot){
+        let data = documentSnapshot.data()
+        self.documentId = documentSnapshot.documentID
+        self.email = data?[kRequestEmail] as? String ?? ""
+        self.status = data?[kRequestStatus] as? String ?? ""
+    }
+}
